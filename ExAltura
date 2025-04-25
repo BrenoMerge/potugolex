@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	real altura
+	inteiro i, cont=0
+
+	para(i=1; i<=12; i++){
+	//Entrada de dados
+		escreva("Digite a altura:")
+		leia(altura)
+		se (altura>1.90){
+		  cont = cont +1 //cont++
+		}
+		}
+	escreva("São ", cont, " jogadores com mais de 1.90m de altura")
+	}
+	
+}
